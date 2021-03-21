@@ -1,0 +1,48 @@
+#meal{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 30px;
+}
+#center{
+    text-align: center;
+    margin: 40px;
+}
+.search-control{
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+    width: 300px;
+    height: 50px;
+    font-size: 1.5rem;
+    font-family:'Times New Roman', Times, serif;
+    margin: 0;
+    outline: 0;
+    background-color: whitesmoke;
+}
+.searchBtn{
+    height: 50px;
+    width: 100px;
+    color: white;
+    background-color:  tomato ;
+    font-weight: 700;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
+    
+}
+.notFound{
+    color: rgba(255, 38, 0, 0.726);
+    font-size: 1.8rem;
+    font-weight: 600;
+    
+}
+
+#meal img{
+    width: 300px;
+    border-top-left-radius: 10px ;
+    border-top-right-radius: 10px;
+}
+.h5Name{
+    text-align: center;
+    background:gainsboro;
+    height: 50px;
+    
+}
